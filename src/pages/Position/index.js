@@ -1,8 +1,8 @@
 import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
-import cart from './killjoy.png';
+import cart from '../../assets/icons/killjoy.png';
 
-function PositionReactNative() {
+function Position() {
   return (
     <View style={styles.wrapper}>
       <Text>Materi Position</Text>
@@ -15,7 +15,7 @@ function PositionReactNative() {
   );
 }
 
-export default PositionReactNative;
+export default Position;
 
 const styles = StyleSheet.create({
   wrapper: {padding: 20, alignItems: 'center'},
